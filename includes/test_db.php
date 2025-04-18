@@ -1,5 +1,5 @@
 <?php
-$conn = pg_connect("host=localhost dbname=php_site  user=postgres password=secure_password");
+$conn = pg_connect("host=localhost dbname=misnjiq  user=postgres password=password");
 if (!$conn) {
     die("Ошибка подключения: " . pg_last_error());
 }
